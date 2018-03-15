@@ -1,7 +1,9 @@
 # tree-node-data
 
-For each tree node in your tree data structure, tree-node-data provides a set of tree node meta data 
-including parent, prev, prevSibling, next, nextSibling, siblingIndex, ancestors, numDescendants, numChildren.
+`tree-node-data` assigns a set of structure meta data for each node in your tree data structure.
+
+Meta data includes __parent__, __prev__, __prevSibling__, __next__, __nextSibling__, __siblingIndex__, __ancestors__, 
+__numDescendants__, __numChildren__.
 
 It is useful for building tree structure UI for data display and data traversal.
 
@@ -12,7 +14,7 @@ It is useful for building tree structure UI for data display and data traversal.
 ## Features
 
 1. Fast. We use it to handle 4000+ nodes tree in production with no obvious delay.
-2. Clean. All added data are contained in the `nodeData` field; Original tree node data is intact. 
+2. Clean. All added data are contained in the `nodeData` field; Original tree node data is intact.
 
 
 ## Example
@@ -133,6 +135,7 @@ prevSibling| key value of previous sibling node. `null` if the current node has 
 nextSibling| key value of next sibling node. `null` if the current node has no next sibling node. i.e. it is the last/only child of its parent.
 prev|key value of previous node. Previous node is defined as previous sibling if found or parent node. 
 next|key value of next node. Next node is defined as next sibling node if found. Otherwise, it will be the 'nextSibling' of the closest ancestor that has a 'nextSibling';
+siblingIndex| The integer index of the current node amongst its siblings. Index starts from 0.
 ancestors|Array of key values of all ancestor nodes. This is useful for working out branch collapsed/expanded status.
 numDescendants| This is the number of **leaf** nodes.  This is useful for showing all items under a branch node.
 numChildren| number of direct child nodes.

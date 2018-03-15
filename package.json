@@ -1,7 +1,7 @@
 {
   "name": "tree-node-data",
   "version": "1.0.0",
-  "description": "Provides tree node meta data useful for building tree structure UI for data display and data traversal",
+  "description": "Assigns a set of structure meta data for each node in your tree structure useful for tree data display and data traversal",
   "main": "lib/tree-node-data.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build",
