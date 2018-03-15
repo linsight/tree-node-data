@@ -65,7 +65,7 @@ const transform = (ancestorNodes, keyField, childrenField) => (siblingData) => {
 };
 
 
-export function assignNodeData(nodes, config) {
+export default function (nodes, config) {
   const keyField = config && config.keyField || 'key';
   const childrenField = config && config.childrenField || 'children';
 

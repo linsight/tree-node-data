@@ -19,7 +19,7 @@ It is useful for building tree structure UI for data display and data traversal.
 
 ## Example
 
-__In short__, it provides a function `assignNodeData` that assigns an extra field named `nodeData` to each node of your tree:
+__In short__, it provides a function that assigns an extra field named `nodeData` to each node of your tree:
  
 <table>
 <tr>
