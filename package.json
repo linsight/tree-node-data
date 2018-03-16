@@ -1,6 +1,6 @@
 {
   "name": "tree-node-data",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Assigns a set of structure meta data for each node in your tree structure useful for tree data display and data traversal",
   "main": "lib/tree-node-data.js",
   "scripts": {
