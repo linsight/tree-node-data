@@ -43,10 +43,6 @@ const config = {
     modules: [path.resolve('./node_modules'), path.resolve('./src')],
     extensions: ['.json', '.js']
   },
-  externals: {
-    react: 'react',
-    react: 'prop-types',
-  },
   plugins: plugins
 };
 
