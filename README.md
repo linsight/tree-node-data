@@ -165,3 +165,5 @@ const nodesWithData = assignNodeData(
 
 1. All nodes should have a distinct 'key' value.
 2. If you want to process a tree instead of an array of nodes, wrap the root node in an array as the parameter to `assignNodeData`;
+3. You may also want to use [tree-node-util](https://www.npmjs.com/package/tree-node-utils) for looking up nodes from a tree using key values made available in 'nodeData'.
+4. `tree-node-util` and `tree-node-data` together provides the powerful tools for building complex tree data structure UIs;
